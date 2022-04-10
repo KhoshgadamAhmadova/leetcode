@@ -1,0 +1,16 @@
+package main.sorting;
+
+public class Helper {
+    public static void swap(int[] array, int index1, int index2) {
+        int temp = array[index1];
+        array[index1] = array[index2];
+        array[index2] = temp;
+    }
+
+    public static void printArray(int[] nums) {
+        for (int num : nums) {
+            System.out.print(num + " ");
+        }
+    }
+
+}
