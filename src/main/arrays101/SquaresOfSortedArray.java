@@ -24,7 +24,7 @@ public class SquaresOfSortedArray {
 
             if (!isSorted) {
                 break;
-            }4
+            }
         }
         return nums;
     }
